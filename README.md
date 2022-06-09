@@ -1,0 +1,2 @@
+# u-dots
+config zsh
