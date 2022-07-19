@@ -40,6 +40,8 @@ cask "docker"
 cask "iterm2"
 cask "cheatsheet"
 cask "postman"
+brew "wezterm"
+brew "httpie"
 EOF
 # brew install lens
 
