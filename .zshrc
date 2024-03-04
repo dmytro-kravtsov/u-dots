@@ -109,8 +109,6 @@ function myip() {
 #ruckus
 export RKSCLOUD="$HOME/dev/rks"
 alias rks='cd $RKSCLOUD'
-alias ahook='$RKSCLOUD/settings-xml/bin/install-git-hook'
-alias amvn='mvn -s .alto-maven-settings.xml'
 
 function up() {
   # about 'update brew packages'
