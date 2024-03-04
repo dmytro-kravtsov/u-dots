@@ -129,11 +129,6 @@ function myip() {
   echo -e "Your public IP is: ${echo_bold_green} $res ${echo_normal}"
 }
 
-#ruckus
-export RKSCLOUD="$HOME/dev/rks"
-alias rks='cd $RKSCLOUD'
-alias ahook='$RKSCLOUD/settings-xml/bin/install-git-hook'
-alias amvn='mvn -s .alto-maven-settings.xml'
 EOF
 # setup .zshenv
 cat > $HOME/.zshenv <<- "EOF"
